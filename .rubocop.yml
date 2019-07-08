@@ -1,0 +1,29 @@
+#inherit_from: .rubocop_todo.yml
+
+# 在block前后必须有空行
+EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'spec/**/*'
+
+# 每行代码最长不能超过120个字符
+LineLength:
+  Max: 120
+  Exclude:
+    - 'spec/**/*'
+    - 'config/initializers/*'
+
+# 方法不能超过20行
+MethodLength:
+  Max: 20
+  Exclude:
+    - 'db/migrate/*'
+
+# 类不能超过120行
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+WordArray:
+  MinSize: 2
