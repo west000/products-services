@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/root/hwg_no_delete/micro_service/products-services/spec/api_spec.rb": [
+      "/root/micro_service/products-services/spec/api_spec.rb": [
         null,
         null,
         1,
@@ -29,6 +29,6 @@
         null
       ]
     },
-    "timestamp": 1562230669
+    "timestamp": 1562751163
   }
 }
